@@ -1,0 +1,16 @@
+{
+  "name": "minesweeper-game",
+  "version": "1.0.0",
+  "description": "Creating, playing and having fun with a game built from the Codecademy Intensive.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	 "build": "babel src -d lib"
+  },
+  "author": "Gabriel Lujan",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
