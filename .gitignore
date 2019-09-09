@@ -1,5 +1,7 @@
 .DS_store
 node_modules/
 
+# project files
+*.code-workspace
 *.sublime-project
 *.sublime-workspace
