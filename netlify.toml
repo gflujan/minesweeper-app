@@ -1,0 +1,10 @@
+[build]
+base = "/"
+command = "echo 'no command is needed'"
+
+[[redirects]]
+from = "https://mines.netlify.app/*"
+to = "https://minesweeper.gflujan.com/:splat"
+status = 301
+force = true
+
